@@ -38,8 +38,15 @@ export default class MovieCard extends Component {
         {this.props.genres.join(',')}
         {this.props.poster}
         <CardFront/>
-
+        {this.props.title}
+        {this.props.IMDBRating}
+        {this.props.genres.join(',')}
+        {this.props.poster}
         <CardBack />
+        {this.props.title}
+        {this.props.IMDBRating}
+        {this.props.genres.join(',')}
+        {this.props.poster}
       </div>
     )
   }
